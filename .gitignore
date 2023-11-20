@@ -19,3 +19,11 @@
 
 # Go workspace file
 go.work
+config/*.config.yaml
+!config/env.config.yaml
+com.lh.*
+.idea
+.vs
+.vsCode
+go.work.sum
+logs
